@@ -5,7 +5,7 @@
 "
 
 " leader
-let g:mapleader = ","
+let g:mapleader = "\<space>"
 let g:localmapleader = "\\"
 
 " move the current line below

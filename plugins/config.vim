@@ -19,7 +19,7 @@ function! OpenNerdTree()
         exec "normal! \<c-w>\<c-w>"
     endif
 endfunction
-autocmd VimEnter * call OpenNerdTree()
+" autocmd VimEnter * call OpenNerdTree()
 
 " nerdtree autoclose if it is the last opened buffer
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
@@ -35,7 +35,7 @@ let g:NERDTreeShowHidden=1
 
 " ignored files
 let g:NERDTreeIgnore=['\.swp$', '\~$']
-nnoremap <c-n> :NERDTreeToggle<cr>
+"nnoremap <c-n> :NERDTreeToggle<cr>
 
 
 " [> NERDCommenter <]
@@ -51,7 +51,7 @@ set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 
 "  powerline font
-let g:airline_powerline_fonts=1
+let g:airline_powerline_fonts=0
 
 
 " [> EditorConfig <]

@@ -17,7 +17,7 @@ filetype plugin on
 
 let s:vimDir = $HOME.'/.vim'
 
-let g:hardcoreMode = 1
+let g:hardcoreMode = 0
 
 let s:pluginDir  = s:vimDir.'/plugins/plugged'
 let s:pluginDef  = s:vimDir.'/plugins/def.vim'
@@ -84,4 +84,3 @@ else
     endif
 
 endif
-
