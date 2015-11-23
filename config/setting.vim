@@ -38,7 +38,7 @@ set incsearch
 
 " copy/paste
 "set paste
-set clipboard=unnamedplus
+"set clipboard=unnamedplus
 
 " folding manual
 set foldmethod=manual
