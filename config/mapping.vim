@@ -30,10 +30,10 @@ inoremap <c-u> <esc>viwUi
 nnoremap <C-l> :nohlsearch<CR><C-l>
 
 " Wrap a word in double quotes
-nnoremap <leader>" viw<esc>i"<esc>hbi"<esc>lel
+"nnoremap <leader>" vaw<esc>i"<esc>hbi"<esc>lel
 
 " Wrap a word in single quotes
-nnoremap <leader>' viw<esc>i'<esc>hbi'<esc>lel
+"nnoremap <leader>' vaw<esc>i'<esc>hbi'<esc>lel
 
 " select inside parents
 onoremap in( :<c-u>normal! f(vi(<cr>

@@ -9,6 +9,7 @@ set tabstop=4
 set nowrap
 
 set selection=exclusive
+set showmatch!
 
 
 " ====== GUI / THEME / COLOR ======
@@ -99,6 +100,9 @@ imap <s-pagedown> <esc>:bn<cr>i
 "Leader t -> new tab
 nnoremap <leader>t :tabnew<cr>
 
+"Surround
+nnoremap <leader>" viwc"<esc>pa"<esc>
+nnoremap <leader>' viwc"<esc>pa'<esc>
 
 " ====== PLUGINS ======
 
@@ -147,9 +151,6 @@ let g:NERDTreeIgnore = [ignore]
 nnoremap <leader>h :GundoToggle<cr>
 
 "FuzzyFinder
-map <c-e> <esc>:FufCoverageFile<cr>
+nmap <c-e> <esc>:FufCoverageFile<cr>
 imap <c-e> <esc>:FufCoverageFile<cr>
-
-
-
 let g:fuf_coveragefile_exclude = ignore
