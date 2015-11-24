@@ -8,7 +8,7 @@ set list!
 set tabstop=4
 set nowrap
 
-set selection=exclusive
+set selection=inclusive
 set showmatch!
 
 
