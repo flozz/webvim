@@ -17,7 +17,7 @@ set showmatch!
 "colorscheme mango
 colorscheme gruvbox
 if has("gui_running")
-    highlight Normal guibg=#111111 guifg=white
+    "highlight Normal guibg=#111111 guifg=white
     set guioptions-=a  " Disable primary seletion
     set guioptions-=b  " No Horizontal scrollbar
     set guioptions-=r  " No Vertical scrollbar
@@ -154,3 +154,6 @@ nnoremap <leader>h :GundoToggle<cr>
 nmap <c-e> <esc>:FufCoverageFile<cr>
 imap <c-e> <esc>:FufCoverageFile<cr>
 let g:fuf_coveragefile_exclude = ignore
+
+" vim json
+let g:vim_json_syntax_conceal = 0
