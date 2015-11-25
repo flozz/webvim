@@ -3,7 +3,7 @@ call plug#begin($HOME.'/.vim/plugins/plugged')
 
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
-Plug 'goatslacker/mango.vim'
+"Plug 'goatslacker/mango.vim'
 Plug 'bling/vim-airline', { 'do' : $HOME.'/.vim/fonts/install' }
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
@@ -29,7 +29,7 @@ Plug 'ynkdir/vim-vimlparser'
 Plug 'kshenoy/vim-signature'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'sjl/gundo.vim'
-Plug 'morhetz/gruvbox'
+Plug 'flozz/gruvbox'
 Plug 'clones/vim-fuzzyfinder'
 Plug 'vim-scripts/L9'
 Plug 'Xuyuanp/nerdtree-git-plugin'
