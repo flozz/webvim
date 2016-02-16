@@ -119,22 +119,13 @@ let ignore .= '|node_modules'
 let ignore .= '|.git'
 let ignore .= '|.bzr'
 
-if filereadable(".gitignore")
-  for line in readfile(".gitignore")
-    let line = substitute(line, '\.', '\\.', 'g')
-    let line = substitute(line, '\*', '.*', 'g')
-    let ignore .= '|^' . line
-  endfor
-endif
-
-if filereadable(".bzrignore")
-  for line in readfile(".bzrignore")
-    let line = substitute(line, '\.', '\\.', 'g')
-    let line = substitute(line, '\*', '.*', 'g')
-    let ignore .= '|^' . line
-  endfor
-endif
-
+"if filereadable(".gitignore")
+  "for line in readfile(".gitignore")
+    "let line = substitute(line, '\.', '\\.', 'g')
+    "let line = substitute(line, '\*', '.*', 'g')
+    "let ignore .= '|^' . line
+  "endfor
+"endif
 
 " NERD Commenter
 vnoremap <c-space> <esc>:call NERDComment('x', 'toggle')<cr>gv
