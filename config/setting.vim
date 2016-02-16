@@ -16,7 +16,7 @@ set number
 syntax on
 set background=dark
 set t_Co=256
-color mango
+"color mango
 
 "indent
 set smartindent
