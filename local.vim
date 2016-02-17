@@ -148,3 +148,6 @@ let g:fuf_coveragefile_exclude = ignore
 
 " vim json
 let g:vim_json_syntax_conceal = 0
+
+" vim babel (requires babel-cli command)
+nmap <leader>b :Babel vert<cr>

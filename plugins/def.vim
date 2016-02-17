@@ -33,5 +33,7 @@ Plug 'flozz/gruvbox'
 Plug 'clones/vim-fuzzyfinder'
 Plug 'vim-scripts/L9'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'jbgutierrez/vim-babel'
+Plug 'mattn/webapi-vim'
 
 call plug#end()
