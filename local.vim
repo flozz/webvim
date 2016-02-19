@@ -151,3 +151,4 @@ let g:vim_json_syntax_conceal = 0
 
 " vim babel (requires babel-cli command)
 nmap <leader>b :Babel vert<cr>
+vmap <leader>b :Babel vert<cr>
