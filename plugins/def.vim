@@ -36,5 +36,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jbgutierrez/vim-babel'
 Plug 'mattn/webapi-vim'
 Plug 'Shougo/vinarise.vim'
+Plug 'reedes/vim-pencil'
 
 call plug#end()
