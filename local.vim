@@ -152,3 +152,9 @@ let g:vim_json_syntax_conceal = 0
 " vim babel (requires babel-cli command)
 nmap <leader>b :Babel vert<cr>
 vmap <leader>b :Babel vert<cr>
+
+" Format paragraph for markdown / text file
+autocmd FileType markdown,text PencilSoft
+autocmd FileType markdown,text nnoremap <c-f> gqip
+autocmd FileType markdown,text vnoremap <c-f> gq
+autocmd FileType markdown,text inoremap <c-f> <esc>gqipA
