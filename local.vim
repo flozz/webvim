@@ -26,6 +26,7 @@ if has("gui_running")
     set columns=120    " Window's width
     set lines=40       " Window's height
     set mousemodel=popup_setpos  " display contex menu on right click
+    set guifont=Monospace\ 11
 endif
 
 
