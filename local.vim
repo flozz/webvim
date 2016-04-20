@@ -155,6 +155,7 @@ vmap <leader>b :Babel vert<cr>
 
 " Format paragraph for markdown / text file
 autocmd FileType markdown,text PencilSoft
-autocmd FileType markdown,text nnoremap <c-f> gqip
-autocmd FileType markdown,text vnoremap <c-f> gq
-autocmd FileType markdown,text inoremap <c-f> <esc>gqipA
+autocmd FileType markdown,text setlocal list
+autocmd FileType markdown,text nnoremap <buffer> <c-f> gqip
+autocmd FileType markdown,text vnoremap <buffer> <c-f> gq
+autocmd FileType markdown,text inoremap <buffer> <c-f> <esc>gqipA
