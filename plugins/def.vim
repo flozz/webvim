@@ -37,5 +37,6 @@ Plug 'jbgutierrez/vim-babel'
 Plug 'mattn/webapi-vim'
 Plug 'Shougo/vinarise.vim'
 Plug 'reedes/vim-pencil'
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
