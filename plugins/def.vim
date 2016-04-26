@@ -38,5 +38,6 @@ Plug 'mattn/webapi-vim'
 Plug 'Shougo/vinarise.vim'
 Plug 'reedes/vim-pencil'
 Plug 'rust-lang/rust.vim'
+Plug 'cespare/vim-toml'
 
 call plug#end()
