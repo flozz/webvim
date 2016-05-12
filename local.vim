@@ -160,3 +160,10 @@ autocmd FileType markdown,text setlocal list
 autocmd FileType markdown,text nnoremap <buffer> <c-f> gqip
 autocmd FileType markdown,text vnoremap <buffer> <c-f> gq
 autocmd FileType markdown,text inoremap <buffer> <c-f> <esc>gqipA
+
+" Tern for vim
+autocmd FileType javascript nmap <buffer> <leader>d :TernDef<cr>
+autocmd FileType javascript nmap <buffer> <leader>r :TernRefs<cr>
+autocmd FileType javascript nmap <buffer> <leader>c :TernDoc<cr>
+autocmd FileType javascript nmap <buffer> <leader>m :TernRename<cr>
+autocmd FileType javascript nmap <buffer> <leader>i :TernType<cr>
