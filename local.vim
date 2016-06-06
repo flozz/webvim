@@ -117,8 +117,8 @@ let ignore .= '|\.svg$'
 let ignore .= '|\.xcf$'
 let ignore .= '|\.pyc$'
 let ignore .= '|node_modules'
-let ignore .= '|.git'
-let ignore .= '|.bzr'
+let ignore .= '|.git$'
+let ignore .= '|.bzr$'
 
 "if filereadable(".gitignore")
   "for line in readfile(".gitignore")
