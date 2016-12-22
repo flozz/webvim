@@ -11,6 +11,11 @@ set nowrap
 set selection=inclusive
 set showmatch!
 
+set modeline
+
+" Strip trailing whitespaces when saving
+autocmd BufWritePre * %s/\s\+$//e
+
 
 " ====== GUI / THEME / COLOR ======
 
