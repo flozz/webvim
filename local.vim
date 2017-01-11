@@ -27,7 +27,7 @@ if has("gui_running")
     set guioptions-=b  " No Horizontal scrollbar
     set guioptions-=r  " No Vertical scrollbar
     set guioptions-=T  " No Toolbar
-    set ttyfast        " Fast terminal
+    set ttyfast        " Fast terminaltargetInfo && targetInfo.point === indice
     set columns=120    " Window's width
     set lines=40       " Window's height
     set mousemodel=popup_setpos  " display contex menu on right click
