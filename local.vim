@@ -172,3 +172,7 @@ autocmd FileType javascript nmap <buffer> <leader>r :TernRefs<cr>
 autocmd FileType javascript nmap <buffer> <leader>c :TernDoc<cr>
 autocmd FileType javascript nmap <buffer> <leader>m :TernRename<cr>
 autocmd FileType javascript nmap <buffer> <leader>i :TernType<cr>
+
+" Re-indent XML
+autocmd FileType xml noremap <buffer> <c-f> ggVG!xmllint --format -<cr>
+autocmd FileType xml vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
