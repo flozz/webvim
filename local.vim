@@ -176,3 +176,55 @@ autocmd FileType javascript nmap <buffer> <leader>i :TernType<cr>
 " Re-indent XML
 autocmd FileType xml noremap <buffer> <c-f> ggVG!xmllint --format -<cr>
 autocmd FileType xml vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
+
+" vim-jsdoc
+autocmd FileType javascript nmap <buffer> <leader>q :JsDoc<cr>
+let g:jsdoc_input_description = 1
+let g:jsdoc_underscore_private = 1
+let g:jsdoc_access_descriptions = 2
+let g:jsdoc_custom_args_hook = {
+\   '^\(callback\|cb\)$': {
+\     'type': '{Function}',
+\     'description': 'Callback function'
+\   },
+\   '^data$': {
+\     'type': '{Object}'
+\   },
+\   '^event$': {
+\     'type': '{Event}'
+\   },
+\   '^element$': {
+\     'type': '{Element}'
+\   },
+\   '^\(err\|error\)$': {
+\     'type': '{Error}'
+\   },
+\   '^\(x\|y\|z\|i\|n\|count\)$': {
+\     'type': '{Number}'
+\   },
+\   '^_\?\(is\|has\)': {
+\     'type': '{Boolean}'
+\   },
+\   '^\(options\|params\|config\)$': {
+\     'type': '{Object}'
+\   },
+\   '^mstate$': {
+\     'type': '{Object} PhotonUI.MouseManager mstate object'
+\   },
+\   '^canvas$': {
+\     'type': '{HTMLCanvasElement}'
+\   },
+\   '^ctx$': {
+\     'type': '{CanvasRenderingContext2D}'
+\   },
+\}
+let g:jsdoc_tags = {
+\  'returns': 'return',
+\  'function': 'function',
+\  'param': 'param',
+\  'class': 'class'
+\}
+let g:jsdoc_user_defined_tags = {
+\  '@method': 'XXX',
+\}
+

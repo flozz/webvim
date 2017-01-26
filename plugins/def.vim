@@ -40,5 +40,6 @@ Plug 'reedes/vim-pencil'
 Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
 Plug 'gko/vim-coloresque'
+Plug 'heavenshell/vim-jsdoc'
 
 call plug#end()
