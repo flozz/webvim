@@ -209,7 +209,8 @@ let g:jsdoc_custom_args_hook = {
 \     'type': '{Object}'
 \   },
 \   '^mstate$': {
-\     'type': '{Object} PhotonUI.MouseManager mstate object'
+\     'type': '{Object}',
+\     'description': 'PhotonUI.MouseManager mstate object'
 \   },
 \   '^canvas$': {
 \     'type': '{HTMLCanvasElement}'
