@@ -187,7 +187,7 @@ let g:jsdoc_custom_args_hook = {
 \     'type': '{Function}',
 \     'description': 'Callback function'
 \   },
-\   '^data$': {
+\   '^\(data\|metadata\)$': {
 \     'type': '{Object}'
 \   },
 \   '^event$': {
@@ -225,7 +225,3 @@ let g:jsdoc_tags = {
 \  'param': 'param',
 \  'class': 'class'
 \}
-let g:jsdoc_user_defined_tags = {
-\  '@method': 'XXX',
-\}
-
