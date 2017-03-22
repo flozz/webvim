@@ -182,6 +182,7 @@ autocmd FileType javascript nmap <buffer> <leader>q :JsDoc<cr>
 let g:jsdoc_input_description = 1
 let g:jsdoc_underscore_private = 1
 let g:jsdoc_access_descriptions = 2
+let g:jsdoc_enable_es6 = 1
 let g:jsdoc_custom_args_hook = {
 \   '^\(callback\|cb\)$': {
 \     'type': '{Function}',
