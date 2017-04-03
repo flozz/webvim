@@ -16,6 +16,12 @@ set modeline
 " Strip trailing whitespaces when saving
 autocmd BufWritePre * %s/\s\+$//e
 
+" Keep some context when scrolling
+set scrolloff=4
+
+" Use system clipboard as default register
+set clipboard=unnamedplus
+
 
 " ====== GUI / THEME / COLOR ======
 
