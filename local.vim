@@ -130,6 +130,11 @@ let ignore .= '|\.pyc$'
 let ignore .= '|node_modules'
 let ignore .= '|.git$'
 let ignore .= '|.bzr$'
+let ignore .= '|__env__'
+let ignore .= '|__pycache__'
+let ignore .= '|\.egg-info$'
+let ignore .= '|\.cache$'
+let ignore .= '|\.tox$'
 
 "if filereadable(".gitignore")
   "for line in readfile(".gitignore")
