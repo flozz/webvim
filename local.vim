@@ -22,6 +22,9 @@ set scrolloff=4
 " Use system clipboard as default register
 set clipboard=unnamedplus
 
+" Crypt method
+set cryptmethod=blowfish2
+
 
 " ====== GUI / THEME / COLOR ======
 
