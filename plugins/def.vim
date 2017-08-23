@@ -41,5 +41,6 @@ Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
 Plug 'gko/vim-coloresque'
 Plug 'heavenshell/vim-jsdoc'
+Plug 'vim-scripts/nginx.vim'
 
 call plug#end()
