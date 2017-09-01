@@ -191,6 +191,10 @@ autocmd FileType javascript nmap <buffer> <leader>i :TernType<cr>
 autocmd FileType xml noremap <buffer> <c-f> ggVG!xmllint --format -<cr>
 autocmd FileType xml vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
 
+" JSON and YAML indent
+autocmd FileType yaml set ts=2
+autocmd FileType json set ts=2
+
 " vim-jsdoc
 autocmd FileType javascript nmap <buffer> <leader>q :JsDoc<cr>
 let g:jsdoc_input_description = 1
