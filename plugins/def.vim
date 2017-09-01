@@ -42,5 +42,6 @@ Plug 'cespare/vim-toml'
 Plug 'gko/vim-coloresque'
 Plug 'heavenshell/vim-jsdoc'
 Plug 'vim-scripts/nginx.vim'
+Plug 'dhruvasagar/vim-table-mode'
 
 call plug#end()
