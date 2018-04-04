@@ -119,6 +119,9 @@ nnoremap <leader>t :tabnew<cr>
 nnoremap <leader>" viwc"<esc>pa"<esc>
 nnoremap <leader>' viwc"<esc>pa'<esc>
 
+" Select last change (aka last paste)
+nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
+
 " ====== PLUGINS ======
 
 " list of files to ignore (for FuzzyFinder and NERDTree)
