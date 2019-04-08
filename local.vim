@@ -141,6 +141,12 @@ let ignore .= '|__pycache__'
 let ignore .= '|\.egg-info$'
 let ignore .= '|\.cache$'
 let ignore .= '|\.tox$'
+let ignore .= '|\.o$'
+let ignore .= '|\.rel$'
+let ignore .= '|\.noi$'
+let ignore .= '|\.sym$'
+let ignore .= '|\.lk$'
+let ignore .= '|\.lst$'
 
 "if filereadable(".gitignore")
   "for line in readfile(".gitignore")
