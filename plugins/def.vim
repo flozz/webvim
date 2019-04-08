@@ -45,5 +45,6 @@ Plug 'heavenshell/vim-jsdoc'
 Plug 'vim-scripts/nginx.vim'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'dpelle/vim-Grammalecte'
+Plug 'junegunn/vim-peekaboo'
 
 call plug#end()
