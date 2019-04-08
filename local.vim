@@ -273,3 +273,10 @@ autocmd FileType rst let g:table_mode_corner_corner='+'
 autocmd FileType rst let g:table_mode_header_fillchar='='
 
 autocmd FileType markdown let g:table_mode_corner='|'
+
+" Grammalecte
+let g:grammalecte_cli_py="~/bin/grammalecte"
+nmap <leader>gg :GrammalecteCheck<cr>
+vmap <leader>gg :GrammalecteCheck<cr>
+nmap <leader>gc :GrammalecteClear<cr>
+vmap <leader>gc :GrammalecteClear<cr>

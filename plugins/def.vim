@@ -44,5 +44,6 @@ Plug 'ap/vim-css-color'
 Plug 'heavenshell/vim-jsdoc'
 Plug 'vim-scripts/nginx.vim'
 Plug 'dhruvasagar/vim-table-mode'
+Plug 'dpelle/vim-Grammalecte'
 
 call plug#end()
