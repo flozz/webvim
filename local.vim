@@ -36,6 +36,7 @@ if has("gui_running")
     set guioptions-=b  " No Horizontal scrollbar
     set guioptions-=r  " No Vertical scrollbar
     set guioptions-=T  " No Toolbar
+    set guioptions-=m  " No menubar
     set ttyfast        " Fast terminaltargetInfo && targetInfo.point === indice
     set columns=120    " Window's width
     set lines=40       " Window's height
@@ -275,7 +276,7 @@ autocmd FileType rst let g:table_mode_header_fillchar='='
 autocmd FileType markdown let g:table_mode_corner='|'
 
 " Grammalecte
-let g:grammalecte_cli_py="~/bin/grammalecte"
+let g:grammalecte_cli_py="~/bin/grammalecte/grammalecte-cli.py"
 nmap <leader>gg :GrammalecteCheck<cr>
 vmap <leader>gg :GrammalecteCheck<cr>
 nmap <leader>gc :GrammalecteClear<cr>
