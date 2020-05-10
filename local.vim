@@ -148,6 +148,8 @@ let ignore .= '|\.noi$'
 let ignore .= '|\.sym$'
 let ignore .= '|\.lk$'
 let ignore .= '|\.lst$'
+let ignore .= '|\.nox$'
+let ignore .= '|\.pytest_cache$'
 
 "if filereadable(".gitignore")
   "for line in readfile(".gitignore")
