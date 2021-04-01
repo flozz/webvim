@@ -46,5 +46,7 @@ Plug 'vim-scripts/nginx.vim'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'dpelle/vim-Grammalecte'
 Plug 'junegunn/vim-peekaboo'
+Plug 'EgZvor/vim-black', { 'branch': 'main' }
+Plug 'Vimjas/vim-python-pep8-indent'
 
 call plug#end()

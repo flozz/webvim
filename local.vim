@@ -283,3 +283,8 @@ nmap <leader>gg :GrammalecteCheck<cr>
 vmap <leader>gg :GrammalecteCheck<cr>
 nmap <leader>gc :GrammalecteClear<cr>
 vmap <leader>gc :GrammalecteClear<cr>
+
+" Black
+let g:black_virtualenv = '__env__'
+autocmd FileType python nnoremap <buffer> <c-f> :Black<Cr>
+autocmd FileType python vnoremap <buffer> <c-f> :Black<Cr>
